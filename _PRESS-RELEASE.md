@@ -40,11 +40,27 @@ Once the project moves into development, the press release can be used as a touc
   - hard to stay on top of dates/schedules, contact info, your application and status, your to-dos.
   - hard to gt the word out about where you're applying and your status, connect with your network and share info.
 
+
 ## Solution ##
   > Describe how your product elegantly solves the problem.
 
   - Dashboard platform that organizes app status/data
   - facilitates connections between users in similar app stage & target company
+
+  - Managing funnel over every step
+  - #Apps
+  - # Onsites
+  - # Phone Interviews
+
+  - Managing the data over every step
+
+  - Providing user feedback/tips
+
+  - Resume Templates
+
+  - Resource hub for users
+
+
 
   - (later implementation) provide employers a view to anonymous user data
 
