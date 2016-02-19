@@ -1,4 +1,5 @@
 angular.module('huntApp', [
+
   'hunt.users',
   'hunt.services',
   'hunt.backlog',
@@ -6,10 +7,13 @@ angular.module('huntApp', [
   'hunt.phoneScreen',
   'hunt.onSite',
   'hunt.offers',
-  'ngRoute'])
+  'hunt.users',
+  'ngRoute'
+])
 
-.config(function ($routeProvider, $locationProvider) {
-    $routeProvider
+
+.config(function($routeProvider, $locationProvider) {
+  $routeProvider
     .when('/signin', {
       templateUrl: 'app/users/signin.html'
     })
@@ -18,7 +22,6 @@ angular.module('huntApp', [
       controller: 'UserController'
     })
     .otherwise({
-      redirectTo: '/main'
+      redirectTo: '/signin'
     });
-  }
-);
+});
