@@ -17,8 +17,6 @@ module.exports.app = app;
 // Set what we are listening on.
 app.set('port', 3000);
 
-<<<<<<< ff09c080fd98b5a3337d1561df5a46fb0ce25add
-=======
 app.use(morgan('dev'));
 app.use(parser.urlencoded({extended: true}));
 app.use(parser.json());
@@ -27,7 +25,6 @@ app.use(parser.json());
 var router = require('./server/routes');
 app.use(router);
 
->>>>>>> edit app.js to move middle wear
 // Logging and parsing
 
 // Router
