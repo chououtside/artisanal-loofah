@@ -17,6 +17,7 @@ angular.module('huntApp', [
    .when('/main', {
      templateUrl: 'app/home/main.html',
      controller: 'UserController',
+     authenticate: true
    })
    .otherwise({
      redirectTo: '/main'
